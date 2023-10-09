@@ -50,4 +50,11 @@ section article {
                     width: 40%;
                 } 
                 
-figure img { max-width: 100%;}                 
+figure img { max-width: 100%;} 
+
+
+/* introdução de uma media quarry para os telemoveis */
+@media (max-width: 640px) {
+    section article (width: 100%; )
+  }
+  
